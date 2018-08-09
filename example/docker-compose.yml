@@ -1,0 +1,8 @@
+version: "3"
+services:
+  server:
+    build: .
+    command: greeter_server
+  client:
+    build: .
+    command: greeter_client
